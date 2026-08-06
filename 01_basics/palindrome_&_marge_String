@@ -1,0 +1,43 @@
+//****************reverse String **********************/
+let str=" I am gourab";
+let reversedStr= str.split(""). reverse(). join("");
+// console.log(reversedStr);
+
+let str1="Gourab";
+let revStr= str1.split("").reverse().join("");
+console.log(revStr)
+
+// // ***********************palindrome check*********************
+
+let str= "gourab";
+function checkedPalindrome(){
+     let revStr= str.split("").reverse().join("");
+
+    if(revStr==str){
+        console.log(str, "is palindrome");
+    }
+    else{
+        console.log(str, "is not palindrome");
+        
+    }
+}
+checkedPalindrome()
+
+// ******************marge each element********************
+
+let str1="Gourab";
+let str2="Subham";
+let str3=""
+
+function margeString(){
+    for(let i=0; i<= str1.length + str2.length; i++){
+        if(i< str1.length){
+            str3= str3+ str1[i];
+        }
+        if(i< str2.length){
+            str3= str3+ str2[i];
+        }
+    }
+}
+margeString()
+console.log(str3);
