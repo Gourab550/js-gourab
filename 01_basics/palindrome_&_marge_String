@@ -41,3 +41,4 @@ function margeString(){
 }
 margeString()
 console.log(str3);
+
